@@ -172,7 +172,7 @@ Menos ferramentas pesadas. Mais produção.
 ---
 
 
-> PREÇO 47,00 REAIS        
+> PREÇO 57,00 REAIS        
 > Arquivo no formato EPUB  
 > Contato/Suporte direto       
 > Envio imediato de Arquivos       

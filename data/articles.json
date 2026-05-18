@@ -44,21 +44,21 @@
   {
     "slug": "resources-links",
     "title": "Recursos & Links",
-    "date": "2025",
+    "date": "2026",
     "tags": ["guias", "links", "referencias"],
     "description": "O cenário do desenvolvimento front-end está em constante evolução, com novas tecnologias, frameworks e metodologias surgindo a todo momento."
   },
   {
     "slug": "intro-javascript",
     "title": "Introdução: JavaScript",
-    "date": "2025",
+    "date": "2026",
     "tags": ["javascript", "web", "iniciante"],
     "description": "Primeiros passos com JavaScript no navegador: variáveis, funções e manipulação do DOM."
   },
   {
     "slug": "intro-web",
     "title": "Introdução: Programação Web",
-    "date": "2025",
+    "date": "2026",
     "tags": ["programacao", "web", "iniciante"],
     "description": "Um overview sobre como a web funciona: HTTP, navegadores e a estrutura básica de uma página."
   }
