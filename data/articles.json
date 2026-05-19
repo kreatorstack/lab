@@ -8,7 +8,7 @@
   }, 
         {
     "slug": "ebook-pandoc",
-    "title": "📕 Aprenda a criar EBooks profissionais com Markdown + Pandoc",
+    "title": "📕 Aprenda a criar EBooks profissionais usando Markdown + Pandoc",
     "date": "2026",
     "tags": ["markdown", "ebook", "pandoc"],
     "description": "Aprenda um fluxo prático para transformar texto simples em conteúdo profissional usando Markdown, Visual Studio Code e Pandoc. Este eBook foi criado para quem deseja produzir documentação, artigos, eBooks, PDFs e arquivos EPUB."

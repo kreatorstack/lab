@@ -82,14 +82,18 @@ Boilerplates prontos para acelerar projetos reais com frontend + backend complet
 ---
 
 
-> PREÇO 230,00 REAIS        
-> Arquivo no formato EPUB  
-> Contato/Suporte direto       
-> Envio imediato de Arquivos       
+> PREÇO 245,00 REAIS     
+> Arquivo .ZIP             
 > PIX / Transferência     
 
 
-[✔️💬 COMPRAR JS Boilerplate Kit](https://instagram.com/front.stack)
+
+## COMPRAR JS BOILERPLATE KIT
+
+- [💬 WHATSAPP](https://wa.me/5531996981103)
+- [💬 INSTAGRAM](https://instagram.com/front.stack)
+- [topverbs@gmail.com](mailto:topverbs@gmail.com)
+
 
 
 

@@ -1,4 +1,4 @@
-# 📕 Aprenda a criar EBooks profissionais com Markdown + Pandoc
+# 📕 Aprenda a criar EBooks profissionais usando Markdown + Pandoc
 
 
 
@@ -173,13 +173,17 @@ Menos ferramentas pesadas. Mais produção.
 
 
 > PREÇO 57,00 REAIS        
-> Arquivo no formato EPUB  
-> Contato/Suporte direto       
-> Envio imediato de Arquivos       
+> Arquivo EPUB  
 > PIX / Transferência     
 
 
-[✔️💬 COMPRAR EBOOK](https://instagram.com/front.stack)
+
+## COMPRAR EBOOK 
+
+- [💬 WHATSAPP](https://wa.me/5531996981103)
+- [💬 INSTAGRAM](https://instagram.com/front.stack)
+- [topverbs@gmail.com](mailto:topverbs@gmail.com)
+
 
 
 

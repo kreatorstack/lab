@@ -31,7 +31,7 @@ function renderFooter() {
     <div class="footer-inner">
       <div class="footer-about">
         <span class="footer-brand">Sobre</span>
-        <p>Projeto desenvolvido por ${CONFIG.author}.</p>
+        <p>Desenvolvido por ${CONFIG.author}.</p>
         <p><br>${products}</p>
       </div>
       <div class="footer-col">
