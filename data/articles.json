@@ -6,19 +6,34 @@
     "tags": ["git", "ebook", "vscode"],
     "description": "Aprenda as duas ferramentas essenciais para qualquer Desenvolvedor Web. Neste EBook voce vai aprender a instalar/configurar Git e VSCode, configurar extensões Markdown para VSCode, Deploy básico GitHub Pages."
   }, 
-    {
-    "slug": "ebook-pandoc",
-    "title": "📕 Aprenda a criar EBooks profissionais com Markdown + Pandoc",
+
+      {
+    "slug": "frontend-senior",
+    "title": "A Jornada para se Tornar um Desenvolvedor Front-end Sênior",
     "date": "2026",
-    "tags": ["markdown", "ebook", "pandoc"],
-    "description": "Aprenda um fluxo prático para transformar texto simples em conteúdo profissional usando Markdown, Visual Studio Code e Pandoc. Este eBook foi criado para quem deseja produzir documentação, artigos, eBooks, PDFs e arquivos EPUB."
-  }, 
+    "tags": ["frontend", "senior", "dev"],
+    "description": "Recentemente, Daniel Tapias Morales, do canal **Serliv**, nos presenteou com uma análise aprofundada do artigo 37 Tips from a Senior Frontend Developer [1], escrito por Ndèye Fatou Diop."
+  },
+        {
+    "slug": "frontend-web",
+    "title": "Relatório: A Evolução do Desenvolvimento Web Front-end",
+    "date": "2026",
+    "tags": ["frontend", "web", "dev"],
+    "description": "Este relatório aprofunda a análise do vídeo A Evolução do Desenvolvimento Web Front-end de Fábio Akita [1], explorando a trajetória do desenvolvimento web front-end desde suas origens até as tecnologias contemporâneas."
+  },
     {
     "slug": "boilerplate-js",
     "title": "🛠️ JavaScript Boilerplate Kit + Documentação README + DEPLOY",
     "date": "2026",
     "tags": ["boilerplate", "kit", "javascript"],
     "description": "Arquivos + Documentação de Projetos Práticos + Boilerplates JavaScript Frontend/APIs/TypeScript."
+  },
+      {
+    "slug": "ebook-pandoc",
+    "title": "📕 Aprenda a criar EBooks profissionais com Markdown + Pandoc",
+    "date": "2026",
+    "tags": ["markdown", "ebook", "pandoc"],
+    "description": "Aprenda um fluxo prático para transformar texto simples em conteúdo profissional usando Markdown, Visual Studio Code e Pandoc. Este eBook foi criado para quem deseja produzir documentação, artigos, eBooks, PDFs e arquivos EPUB."
   },
   {
     "slug": "micro-features",

@@ -38,7 +38,8 @@ function renderFooter() {
         <span class="footer-col-title">Contato</span>
         <a href="mailto:${CONFIG.email}">${CONFIG.email}</a>
         <a href="${CONFIG.github}" target="_blank" rel="noopener">${CONFIG.github.replace('https://', '')}</a>
-      </div>
+              <a href="${CONFIG.linkedin}" target="_blank" rel="noopener">${CONFIG.linkedin.replace('https://', '')}</a>
+        </div>
     </div>
     <div class="footer-bottom">
       <span>© ${CONFIG.siteName}</span>
