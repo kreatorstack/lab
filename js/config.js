@@ -20,8 +20,8 @@ const CONFIG = {
   products: [
     {
       icon:  "💬",
-      title: "SOBRE/ABOUT",
-      slug:  "about",
+      title: "Dúvidas/Suporte",
+      slug:  "support",
     },   
   ],
 };

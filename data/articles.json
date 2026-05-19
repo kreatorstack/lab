@@ -6,6 +6,13 @@
     "tags": ["git", "ebook", "vscode"],
     "description": "Aprenda as duas ferramentas essenciais para qualquer Desenvolvedor Web. Neste EBook voce vai aprender a instalar/configurar Git e VSCode, configurar extensões Markdown para VSCode, Deploy básico GitHub Pages."
   }, 
+        {
+    "slug": "ebook-pandoc",
+    "title": "📕 Aprenda a criar EBooks profissionais com Markdown + Pandoc",
+    "date": "2026",
+    "tags": ["markdown", "ebook", "pandoc"],
+    "description": "Aprenda um fluxo prático para transformar texto simples em conteúdo profissional usando Markdown, Visual Studio Code e Pandoc. Este eBook foi criado para quem deseja produzir documentação, artigos, eBooks, PDFs e arquivos EPUB."
+  },
 
       {
     "slug": "frontend-senior",
@@ -28,13 +35,7 @@
     "tags": ["boilerplate", "kit", "javascript"],
     "description": "Arquivos + Documentação de Projetos Práticos + Boilerplates JavaScript Frontend/APIs/TypeScript."
   },
-      {
-    "slug": "ebook-pandoc",
-    "title": "📕 Aprenda a criar EBooks profissionais com Markdown + Pandoc",
-    "date": "2026",
-    "tags": ["markdown", "ebook", "pandoc"],
-    "description": "Aprenda um fluxo prático para transformar texto simples em conteúdo profissional usando Markdown, Visual Studio Code e Pandoc. Este eBook foi criado para quem deseja produzir documentação, artigos, eBooks, PDFs e arquivos EPUB."
-  },
+
   {
     "slug": "micro-features",
     "title": "Recomendações de Arquiteturas baseadas em Funcionalidades para Frontend",
