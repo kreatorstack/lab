@@ -6,79 +6,18 @@
 
 
 
-Boilerplates prontos para acelerar projetos reais com frontend + backend completo.
-
-
-## Frontend Kit
-
-### Templates Essenciais
-- Landing Page otimizada para conversão  
-- Website institucional responsivo  
-- Portfólio profissional para devs  
-
-### Aplicações SPA
-- Blog Markdown com router (estilo CMS)  
-- Dashboard Admin (interface pronta + CRUD)  
-- App com autenticação (login + rotas protegidas)  
-
-### UI System
-- Component Library reutilizável  
-- Seções prontas (Hero, Pricing, Features, FAQ)  
-
-### Performance & SEO
-- Estrutura otimizada (SEO + Lighthouse)  
-- Code splitting e carregamento eficiente  
-
-### Documentação
-- README profissional  
-- Guia de deploy  
-
-
-
-## Node.js & APIs Kit
-
-### APIs Essenciais
-- API REST completa (CRUD funcional)  
-- Estrutura profissional (MVC)  
-- Validação e tratamento de erros  
-
-### Integração com APIs
-- API proxy (consumo de serviços externos)  
-- Cache básico e controle de requisições  
-
-### Upload & Processamento
-- Upload de arquivos (imagens)  
-- Conversão e otimização  
-
-### Autenticação
-- Sistema JWT completo  
-- Proteção de rotas  
-- Armazenamento com Workers KV  
-
-### Formulários
-- API com validação TypeScript  
-- Sanitização de dados  
-
-### Arquitetura
-- Organização escalável  
-- Separação de camadas  
-
-### Deploy
-- Deploy pronto para produção  
-- Configuração de ambiente  
-
-
-
-## Bônus
-
-- Icons Pack (SVG)  
-- Roadmaps para desenvolvedores  
-- Assets visuais para projetos 
-
-
-
-
-
+Boilerplates prontos para acelerar projetos reais com frontend e backend completo. Pare de começar do zero — comece já com estrutura profissional, código organizado e deploy configurado.
+ 
+---
+ 
+No lado do frontend, o kit entrega templates essenciais para os projetos mais comuns: landing page otimizada para conversão, website institucional responsivo e portfólio profissional. Além disso, há SPAs completas — blog com Markdown e router, dashboard admin com interface pronta e CRUD, e app com sistema de autenticação e rotas protegidas. Tudo pronto para adaptar e publicar.
+ 
+Para a camada de UI, o kit inclui uma biblioteca de componentes reutilizáveis e seções pré-montadas como Hero, Pricing, Features e FAQ. A estrutura já vem otimizada para SEO e performance, com code splitting e carregamento eficiente — pontuação alta no Lighthouse sem ajustes manuais. README profissional e guia de deploy incluídos.
+ 
+No backend, o kit cobre uma API REST completa com CRUD funcional, arquitetura MVC e tratamento de erros. Integrações com APIs externas, cache básico, upload e otimização de imagens, sistema JWT com proteção de rotas e armazenamento via Workers KV. Uma base sólida e escalável para qualquer projeto Node.js.
+ 
+Como bônus, o kit inclui um pack de ícones SVG, roadmaps para desenvolvedores e assets visuais prontos para uso. Tudo em um único arquivo ZIP, entregue via PIX ou transferência.
+ 
 ---
 
 

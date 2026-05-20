@@ -5,48 +5,18 @@
 <img src="https://github.com/grcodev/grcodev/releases/download/vault/ebook_git.png" width="35%" height="35%" style="border-radius:2%;" />
 
 
-Aprenda as duas ferramentas essenciais para qualquer Desenvolvedor Web. Neste EBook voce vai aprender a instalar/configurar Git e VSCode, configurar extensões Markdown para VSCode, Deploy básico GitHub Pages, todos os passos básicos para voce começar a criar e desenvolver projetos web com versionamento de código profissional.
-
-
-
-
-
-
-
-## Tutorial Git
-
-Fundamentos de versionamento com Git aplicados ao fluxo real de desenvolvimento. Conceitos essenciais como repositório, commit, branch, merge e histórico de alterações. Comandos principais: init, add, commit, push, pull e clone. Introdução ao GitHub como plataforma de hospedagem, backup e colaboração. Boas práticas para manter projetos organizados e histórico limpo.
-
-## Tutorial Visual Studio Code
-
-Configuração inicial do Visual Studio Code para desenvolvimento web moderno. Extensões essenciais para linting, formatting, produtividade e integração com Git. Uso do terminal integrado, atalhos úteis, organização de workspace e gerenciamento de arquivos. Personalização do editor para criar um ambiente rápido, limpo e eficiente.
-
-## Tutorial Deploy GitHub Pages
-
-Publicação de projetos estáticos utilizando GitHub Pages. Estrutura recomendada do repositório, configuração de branch e ativação do deploy. Processo de atualização contínua via push para publicar mudanças com rapidez. Limitações, vantagens e casos ideais de uso como portfólios, landing pages, blogs e documentação técnica.
-
-## Checklist, Recursos & Links
-
-Seleção prática de documentações oficiais, ferramentas úteis e referências confiáveis para continuar evoluindo. Links para Git Docs, GitHub Docs, VS Code Docs, MDN Web Docs e exemplos reais de projetos. Curadoria focada em aprendizado direto, aplicação rápida e produtividade contínua.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Aprenda as duas ferramentas essenciais para qualquer desenvolvedor web. Este eBook cobre instalação, configuração e uso prático do Git e do Visual Studio Code — do zero ao primeiro deploy — com linguagem direta e foco em aplicação imediata.
+ 
+---
+ 
+Este material começa pelo Git: o sistema de versionamento que todo desenvolvedor precisa dominar. Você vai entender os conceitos fundamentais como repositório, commit, branch e merge, e aprender os comandos principais na prática — init, add, commit, push, pull e clone. A base que garante organização, histórico limpo e colaboração profissional em qualquer projeto.
+ 
+Em seguida, o foco muda para o Visual Studio Code. O guia mostra como configurar o editor do zero para desenvolvimento web moderno, com extensões essenciais para produtividade, linting, formatação e integração com Git. Atalhos úteis, terminal integrado, organização de workspace: tudo para criar um ambiente rápido, eficiente e personalizado.
+ 
+O eBook também cobre o deploy com GitHub Pages — como publicar projetos estáticos com rapidez, atualizar via push e entender as vantagens e limitações da plataforma. Ideal para portfólios, landing pages e documentação técnica. Para fechar, uma curadoria de links e referências diretas: Git Docs, GitHub Docs, VS Code Docs e MDN Web Docs.
+ 
+Ao concluir, você terá um setup completo e profissional para desenvolver, versionar e publicar projetos web com confiança — sem depender de tutoriais dispersos ou documentação confusa.
+ 
 ---
 
 
