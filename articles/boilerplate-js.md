@@ -90,8 +90,7 @@ Boilerplates prontos para acelerar projetos reais com frontend + backend complet
 
 ## COMPRAR JS BOILERPLATE KIT
 
-- [💬 WHATSAPP](https://wa.me/5531996981103)
-- [topverbs@gmail.com](mailto:topverbs@gmail.com)
+- [✔️💬 WHATSAPP](https://wa.me/5531996981103)
 
 
 

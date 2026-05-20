@@ -180,8 +180,7 @@ Menos ferramentas pesadas. Mais produção.
 
 ## COMPRAR EBOOK 
 
-- [💬 WHATSAPP](https://wa.me/5531996981103)
-- [topverbs@gmail.com](mailto:topverbs@gmail.com)
+- [✔️💬 WHATSAPP](https://wa.me/5531996981103)
 
 
 
