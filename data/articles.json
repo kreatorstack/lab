@@ -14,6 +14,14 @@
     "description": "Aprenda um fluxo prático para transformar texto simples em conteúdo profissional usando Markdown, Visual Studio Code e Pandoc. Este eBook foi criado para quem deseja produzir documentação, artigos, eBooks, PDFs e arquivos EPUB."
   },
 
+    {
+    "slug": "boilerplate-js",
+    "title": "🛠️ JavaScript Boilerplate Kit + Documentação README + DEPLOY",
+    "date": "2026",
+    "tags": ["boilerplate", "kit", "javascript"],
+    "description": "Arquivos + Documentação de Projetos Práticos + Boilerplates JavaScript Frontend/APIs/TypeScript."
+  },
+
       {
     "slug": "frontend-senior",
     "title": "A Jornada para se Tornar um Desenvolvedor Front-end Sênior",
@@ -28,13 +36,7 @@
     "tags": ["frontend", "web", "dev"],
     "description": "Este relatório aprofunda a análise do vídeo A Evolução do Desenvolvimento Web Front-end de Fábio Akita [1], explorando a trajetória do desenvolvimento web front-end desde suas origens até as tecnologias contemporâneas."
   },
-    {
-    "slug": "boilerplate-js",
-    "title": "🛠️ JavaScript Boilerplate Kit + Documentação README + DEPLOY",
-    "date": "2026",
-    "tags": ["boilerplate", "kit", "javascript"],
-    "description": "Arquivos + Documentação de Projetos Práticos + Boilerplates JavaScript Frontend/APIs/TypeScript."
-  },
+
 
   {
     "slug": "micro-features",
