@@ -36,11 +36,11 @@ function renderHome() {
   document.getElementById("app").innerHTML = `
     <section class="home-intro">
       <h1 class="home-title">grcodev/lab</h1>
-      <p class="home-subtitle">Projetos & Guias para Desenvolvedores</p>
+      <p class="home-subtitle">Front-end Hub: Projetos + Guias + EBooks</p>
     </section>
 
     <section class="articles-section">
-      <h2>Artigos</h2>
+      <h2>Arquivo</h2>
       <input
         id="article-search"
         class="article-search"
