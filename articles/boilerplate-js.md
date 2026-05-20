@@ -82,15 +82,19 @@ Boilerplates prontos para acelerar projetos reais com frontend + backend complet
 ---
 
 
+## COMPRAR BOILERPLATE KIT
+
+- [✔️💬 WHATSAPP](https://wa.me/5531996981103)
+
+
+
 > PREÇO 245,00 REAIS     
 > Arquivo .ZIP             
 > PIX / Transferência     
 
 
 
-## COMPRAR JS BOILERPLATE KIT
 
-- [✔️💬 WHATSAPP](https://wa.me/5531996981103)
 
 
 

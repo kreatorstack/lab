@@ -50,15 +50,18 @@ Seleção prática de documentações oficiais, ferramentas úteis e referência
 ---
 
 
+## COMPRAR EBOOK 
+
+- [✔️💬 WHATSAPP](https://wa.me/5531996981103)
+
+
 > PREÇO 57,00 REAIS        
 > Arquivo EPUB  
 > PIX / Transferência     
 
 
 
-## COMPRAR EBOOK 
 
-- [✔️💬 WHATSAPP](https://wa.me/5531996981103)
 
 
 

@@ -172,15 +172,20 @@ Menos ferramentas pesadas. Mais produção.
 ---
 
 
+## COMPRAR EBOOK 
+
+- [✔️💬 WHATSAPP](https://wa.me/5531996981103)
+
+
+
+
 > PREÇO 57,00 REAIS        
 > Arquivo EPUB  
 > PIX / Transferência     
 
 
 
-## COMPRAR EBOOK 
 
-- [✔️💬 WHATSAPP](https://wa.me/5531996981103)
 
 
 
