@@ -14,7 +14,6 @@ const CONFIG = {
   author:    "Guilherme Ribeiro",
   email:     "topverbs@gmail.com",
   github:    "https://github.com/grcodev",
-  linkedin:  "https://linkedin.com/in/gribeirodev",
   icon:      `${BASE}/lab_icon.png`,
 
   products: [
