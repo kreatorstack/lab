@@ -36,7 +36,7 @@ function renderHome() {
   document.getElementById("app").innerHTML = `
     <section class="home-intro">
       <h1 class="home-title">grcodev/lab</h1>
-      <p class="home-subtitle">Front-end Hub: Projetos + Guias + EBooks</p>
+      <p class="home-subtitle">Front-end Hub: Projetos & Guias para Desenvolvedores</p>
     </section>
 
     <section class="articles-section">
