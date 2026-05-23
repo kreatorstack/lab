@@ -1,7 +1,7 @@
 const config = {
   website: {
     name: 'FRONTLAB',
-    description: 'Guias & Projetos para Desenvolvedores.',
+    description: 'Desenvolvido por Guilherme Ribeiro.',
     author: 'Guilherme Ribeiro',
     year: new Date().getFullYear(),
   },

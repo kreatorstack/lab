@@ -28,7 +28,7 @@ function setActiveLink() {
 function renderFooter() {
   const footerEl = document.getElementById('footer');
   footerEl.innerHTML = `
-    <p>© ${config.website.year} ${config.website.name} · <a href="#/legal">privacidade-termos</a></p>
+    <p>© ${config.website.year} · <a href="#/legal">privacidade-termos</a></p>
   `;
 }
 
