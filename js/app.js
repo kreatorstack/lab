@@ -8,6 +8,7 @@ import legal from './pages/legal.js';
 import notFound from './pages/404.js';
 
 async function renderPost(slug) {
+  window.scrollTo(0, 0);
   try {
     const res = await fetch(config.paths.posts);
     const posts = await res.json();

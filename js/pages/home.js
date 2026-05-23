@@ -25,6 +25,7 @@ function renderList(posts) {
 }
 
 async function home() {
+  window.scrollTo(0, 0);
   try {
     const res = await fetch(config.paths.posts);
     const posts = await res.json();
