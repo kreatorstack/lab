@@ -18,20 +18,24 @@ Ao concluir, você terá um setup completo e profissional para desenvolver, vers
  
 
 
-
-## COMPRAR EBOOK 
-
-- [✔️💬 WHATSAPP](https://wa.me/5531996981103)
+---
 
 
-> PREÇO 57,00 REAIS        
+<a style="vertical-align: middle; display: inline-flex; align-items: center; gap: 8px;" href="https://wa.me/5531996981103">
+  💰 Comprar EBOOK Git + VSCode →
+  <img src="./assets/whatsapp.png" 
+    width="25" 
+    height="25"
+    alt="WhatsApp"/></a>     
+
+> 57,00 REAIS        
 > Arquivo EPUB  
 > PIX / Transferência     
 
 
 
 
-
+---
 
 
 

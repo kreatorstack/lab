@@ -19,23 +19,26 @@ O passo final é a exportação profissional: como gerar EPUBs bem estruturados 
 Para fechar, um checklist completo de instalação, links para ferramentas recomendadas e os próximos passos para quem quer continuar evoluindo. Simples, direto e útil: menos dependências pesadas, mais produção real.
  
 
+---
+
+<a style="vertical-align: middle; display: inline-flex; align-items: center; gap: 8px;" href="https://wa.me/5531996981103">
+  💰 Comprar EBOOK Markdown + Pandoc →
+  <img src="./assets/whatsapp.png" 
+    width="25" 
+    height="25"
+    alt="WhatsApp"/></a>
 
 
-## COMPRAR EBOOK 
-
-- [✔️💬 WHATSAPP](https://wa.me/5531996981103)
 
 
-
-
-> PREÇO 57,00 REAIS        
+> 57,00 REAIS        
 > Arquivo EPUB  
 > PIX / Transferência     
 
 
 
 
-
+---
 
 
 

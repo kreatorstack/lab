@@ -17,15 +17,18 @@ No backend, o kit cobre uma API REST completa com CRUD funcional, arquitetura MV
  
 Como bônus, o kit inclui um pack de ícones SVG, roadmaps para desenvolvedores e assets visuais prontos para uso. Tudo em um único arquivo ZIP, entregue via PIX ou transferência.
  
+---
+
+<a style="vertical-align: middle; display: inline-flex; align-items: center; gap: 8px;" href="https://wa.me/5531996981103">
+  💰 Comprar JS Boilerplate Kit →
+  <img src="./assets/whatsapp.png" 
+    width="25" 
+    height="25"
+    alt="WhatsApp"/></a>
 
 
-## COMPRAR BOILERPLATE KIT
 
-- [✔️💬 WHATSAPP](https://wa.me/5531996981103)
-
-
-
-> PREÇO 245,00 REAIS     
+> 245,00 REAIS     
 > Arquivo .ZIP             
 > PIX / Transferência     
 
@@ -34,7 +37,7 @@ Como bônus, o kit inclui um pack de ícones SVG, roadmaps para desenvolvedores 
 
 
 
-
+---
 
 
 
