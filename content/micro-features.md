@@ -1,110 +1,85 @@
 
-Aplicações crescem. Estruturas organizadas por tipo técnico como `components`, `services` e `utils` começam simples, mas rapidamente viram um sistema difícil de navegar.
+Aplicacoes crescem. Estruturas organizadas por tipo tecnico, como `components`, `services` e `utils`, comecam simples mas rapidamente viram um sistema dificil de navegar. Voce abre o projeto e nao sabe por onde comecar, porque tudo que pertence a uma funcionalidade esta espalhado em varias pastas diferentes.
 
-A Arquitetura Baseada em Funcionalidades muda esse eixo. O código passa a ser organizado pelo que o sistema faz. Cada funcionalidade vira um bloco isolado, contendo interface, lógica e acesso a dados.
+A arquitetura baseada em funcionalidades muda esse eixo. O codigo passa a ser organizado pelo que o sistema faz. Cada funcionalidade vira um bloco isolado, contendo interface, logica e acesso a dados no mesmo lugar.
 
-Isso reduz dispersão e melhora a leitura do projeto.
+---
 
-## Estrutura por domínio
+## Estrutura por dominio
 
-Em vez de separar por tecnologia, a divisão é por funcionalidade.
+Em vez de separar por tecnologia, a divisao e por funcionalidade.
 
-`auth`, `cart`, `search`. Cada uma dessas partes existe como um módulo próprio. Nada fica espalhado entre várias pastas técnicas.
+`auth`, `cart`, `search`. Cada uma dessas partes existe como um modulo proprio. Nada fica espalhado entre varias pastas tecnicas.
 
-Você entra em uma feature e encontra tudo ali. Isso reduz o esforço de entendimento e limita o impacto de mudanças.
+Voce entra em uma feature e encontra tudo ali. Isso reduz o esforco de entendimento e limita o impacto de mudancas. Se voce precisa alterar algo no fluxo de autenticacao, sabe exatamente onde ir.
 
-## Estrutura no front-end
+---
 
-Uma forma comum de aplicar isso é usando uma hierarquia previsível de pastas:
+## Estrutura no frontend
 
-`app`  
-Responsável pela inicialização da aplicação, providers globais e configuração geral.
+Uma hierarquia comum de pastas para aplicar esse modelo:
 
-`pages`  
-Representa as rotas. Cada página organiza e compõe funcionalidades.
+**`app`** — inicializacao da aplicacao, providers globais e configuracao geral.
 
-`widgets`  
-Blocos maiores de interface que combinam múltiplas features.
+**`pages`** — representa as rotas. Cada pagina organiza e compoe funcionalidades.
 
-`features`  
-Onde vivem as funcionalidades reais. Cada pasta representa uma ação ou regra de negócio. Ex: `features/auth`, `features/add-to-cart`.
+**`widgets`** — blocos maiores de interface que combinam multiplas features.
 
-`entities`  
-Modelos centrais do sistema. Representam dados como `user`, `product`, `order`.
+**`features`** — onde vivem as funcionalidades reais. Cada pasta representa uma acao ou regra de negocio: `features/auth`, `features/add-to-cart`.
 
-`shared`  
-Código genérico. Componentes base, utilitários, helpers. Não deve conter regra de negócio.
+**`entities`** — modelos centrais do sistema. Representam dados como `user`, `product`, `order`.
 
-## Regra de dependência
+**`shared`** — codigo generico: componentes base, utilitarios, helpers. Nao deve conter regra de negocio.
 
-Existe uma regra simples e rígida:
+---
 
-Camadas de cima só podem depender das de baixo.
+## Regra de dependencia
 
-`pages` pode usar `features`.  
-`features` pode usar `entities` e `shared`.  
-Mas o inverso não acontece.
+Ha uma regra simples e rigida: camadas superiores so podem depender das inferiores.
 
-Isso evita dependências circulares e mantém o isolamento.
+`pages` pode usar `features`. `features` pode usar `entities` e `shared`. O inverso nao acontece.
 
-## Organização interna da feature
+Isso evita dependencias circulares e mantem o isolamento entre as partes do sistema. Quando essa regra e respeitada, alterar uma feature nao produz efeitos colaterais inesperados em outras.
 
-Dentro de uma feature, a estrutura costuma seguir um padrão:
+---
 
-`ui`  
-Componentes visuais
+## Organizacao interna de uma feature
 
-`model`  
-Estado, regras e lógica
+Dentro de cada feature, a estrutura costuma seguir um padrao previsivel:
 
-`api`  
-Chamadas externas
+- `ui` — componentes visuais
+- `model` — estado, regras e logica
+- `api` — chamadas externas
+- `lib` — funcoes auxiliares internas
 
-`lib`  
-Funções auxiliares internas
+Tudo que pertence a feature fica encapsulado aqui. O que nao esta nessa pasta nao e responsabilidade dela.
 
-Tudo que pertence à feature fica encapsulado aqui.
+---
 
-## Back-end no mesmo modelo
+## Backend no mesmo modelo
 
-No back-end, a lógica é a mesma.
+No backend, a logica e a mesma. Cada funcionalidade pode ser tratada como uma unidade isolada: um handler, funcao ou servico independente.
 
-Cada funcionalidade pode ser tratada como uma unidade isolada. Um handler, função ou serviço independente.
+`auth-service`, `comment-service`, `payment-service`. Cada um recebe requisicoes, processa e responde sem depender diretamente dos outros. Isso permite escalar partes do sistema de forma independente sem reescrever o restante.
 
-`auth-service`  
-`comment-service`  
-`payment-service`
+---
 
-Cada um recebe requisições, processa e responde sem depender diretamente dos outros.
+## O que esse modelo resolve
 
-Isso permite escalar partes do sistema de forma independente.
+Menos codigo espalhado significa que mudancas ficam mais contidas. A leitura do projeto se torna mais direta porque a estrutura reflete o que o sistema faz, nao como ele foi implementado. Times conseguem trabalhar em paralelo em features diferentes sem conflito constante.
 
-## Benefícios
+A escalabilidade tambem melhora: adicionar uma nova funcionalidade nao exige tocar em dezenas de arquivos espalhados pelo projeto.
 
-Menos código espalhado.
+---
 
-Leitura mais direta.
+## Limitacoes
 
-Mudanças mais seguras.
+Esse modelo exige disciplina. A pasta `shared` pode virar uma gaveta de tudo se nao houver controle claro do que pertence a ela. A comunicacao entre features precisa ser bem definida para que o isolamento seja real e nao apenas aparente.
 
-Escalabilidade mais previsível.
+Para projetos pequenos ou com escopo muito limitado, a estrutura pode ser excesso. O modelo faz mais sentido quando o projeto tem previsao de crescimento ou quando varias pessoas trabalham nele ao mesmo tempo.
 
-Times conseguem trabalhar em paralelo sem conflito constante.
+---
 
-## Limitações
+## Conclusao
 
-Exige disciplina na estrutura.
-
-A pasta `shared` pode virar bagunça se não houver controle.
-
-Comunicação entre features precisa ser bem definida.
-
-Para projetos pequenos, pode ser excesso.
-
-## Conclusão
-
-Organizar por funcionalidade reduz complexidade estrutural real.
-
-Pastas como `app`, `pages`, `features`, `entities` e `shared` deixam de ser só organização e passam a refletir o sistema.
-
-Quando o projeto cresce, isso evita o colapso comum de código espalhado e difícil de manter.
+Organizar por funcionalidade reduz complexidade estrutural real. Quando o projeto cresce, essa abordagem evita o colapso comum de codigo espalhado e dificil de manter. A estrutura passa a refletir o sistema, nao apenas as escolhas tecnicas de quem o construiu.
