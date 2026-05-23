@@ -1,4 +1,3 @@
-
 Um roteiro progressivo para quem está começando ou reorganizando o aprendizado de desenvolvimento frontend. A ordem importa: cada etapa prepara o terreno para a próxima.
 
 ---
@@ -85,7 +84,7 @@ A única linguagem de programação nativa dos navegadores. O fundamento mais im
 
 ## 5. TypeScript
 
-TypeScript adiciona tipagem estática ao JavaScript. É um superset: todo JavaScript válido também é TypeScript válido. O compilador identifica erros antes da execução e editores oferecem autocompletar preciso.
+TypeScript adiciona tipagem estática ao JavaScript. É um superset: todo JavaScript válido também é TypeScript válido. O compilador identifica erros antes da execução e os editores oferecem autocompletar preciso.
 
 O que aprender:
 
@@ -113,11 +112,11 @@ Git é o padrão da indústria para controle de versão. Não é opcional.
 
 **Workflow com branches**
 
-A prática mais comum em times é o Git Flow simplificado: uma branch `main` estável, branches de feature criadas a partir dela, pull requests para revisão antes do merge.
+A prática mais comum em times é o Git Flow simplificado: uma branch `main` estável, branches de feature criadas a partir dela e pull requests para revisão antes do merge.
 
 - `git checkout -b feature/nome`
 - Commits atômicos com mensagens descritivas
-- Rebase vs merge: quando usar cada um
+- Rebase vs. merge: quando usar cada um
 - Resolução de conflitos
 
 **GitHub**
@@ -196,7 +195,7 @@ Criada pela equipe do Next.js, é a plataforma mais integrada ao ecossistema Rea
 
 **Cloudflare Pages**
 
-Alternativa ao Vercel e Netlify com infraestrutura global da Cloudflare. Sem limites de banda no plano gratuito, integrado ao ecossistema Cloudflare (Workers, KV, R2). Bom para projetos que já usam ou pretendem usar outros serviços da Cloudflare.
+Alternativa ao Vercel e ao Netlify com infraestrutura global da Cloudflare. Sem limites de banda no plano gratuito, integrado ao ecossistema Cloudflare (Workers, KV, R2). Bom para projetos que já usam ou pretendem usar outros serviços da Cloudflare.
 
 **Variáveis de ambiente**
 
@@ -230,7 +229,7 @@ Um padrão comum é construir autenticação diretamente na borda:
 1. O usuário envia credenciais para um Worker
 2. O Worker valida, gera um token (JWT ou token opaco) e armazena no KV com TTL definido
 3. Requisições subsequentes passam pelo Worker, que valida o token no KV antes de encaminhar ao serviço de destino
-4. Logout invalida o token no KV
+4. O logout invalida o token no KV
 
 Esse modelo dispensa um servidor de autenticação dedicado e funciona globalmente sem configuração adicional de infraestrutura.
 

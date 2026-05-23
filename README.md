@@ -1,6 +1,6 @@
-# blog
+# Website/Blog totalmente Frontend 
 
-Blog estático com SPA em JavaScript puro.
+Website/Blog estático com SPA em JavaScript puro.
 
 - Roteamento via hash (`#/`)
 - Posts em Markdown renderizados com [Marked.js](https://marked.js.org/)
