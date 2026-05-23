@@ -1,13 +1,12 @@
-# 📘 Manual/Tutorial Completo: Git + Visual Studio Code
 
 
 
-<img src="https://github.com/grcodev/grcodev/releases/download/vault/ebook_git.png" width="35%" height="35%" style="border-radius:2%;" />
 
+<img src="./assets/ebook-git.png" width="45%" height="45%" style="border-radius:2%;" />
 
 Aprenda as duas ferramentas essenciais para qualquer desenvolvedor web. Este eBook cobre instalação, configuração e uso prático do Git e do Visual Studio Code — do zero ao primeiro deploy — com linguagem direta e foco em aplicação imediata.
  
----
+
  
 Este material começa pelo Git: o sistema de versionamento que todo desenvolvedor precisa dominar. Você vai entender os conceitos fundamentais como repositório, commit, branch e merge, e aprender os comandos principais na prática — init, add, commit, push, pull e clone. A base que garante organização, histórico limpo e colaboração profissional em qualquer projeto.
  
@@ -17,7 +16,7 @@ O eBook também cobre o deploy com GitHub Pages — como publicar projetos está
  
 Ao concluir, você terá um setup completo e profissional para desenvolver, versionar e publicar projetos web com confiança — sem depender de tutoriais dispersos ou documentação confusa.
  
----
+
 
 
 ## COMPRAR EBOOK 

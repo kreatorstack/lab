@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "ebook-git",
+    "title": "📘 Manual Completo: Git + Visual Studio Code",
+    "date": "2026",
+    "tag": ["ebook", "git", "vscode"],
+    "excerpt": "Aprenda as duas ferramentas essenciais para qualquer desenvolvedor web. Este eBook cobre instalação, configuração e uso prático do Git e do Visual Studio Code — do zero ao primeiro deploy — com linguagem direta e foco em aplicação imediata.",
+    "file": "ebook-git.md"
+  },
+   {
+    "slug": "ebook-pandoc",
+    "title": "📕 EBooks profissionais usando Markdown + Pandoc",
+    "date": "2026",
+    "tag": ["ebook", "md", "pandoc"],
+    "excerpt": "Um guia prático para transformar texto simples em conteúdo profissional — eBooks, PDFs, documentações e EPUBs — usando ferramentas leves, abertas e independentes de plataformas complexas. Feito para quem quer produzir mais com menos fricção.",
+    "file": "ebook-pandoc.md"
+  },
+   {
+    "slug": "boilerplate-js",
+    "title": "🛠️ JS Boilerplate Kit + Documentação README + DEPLOY",
+    "date": "2026",
+    "tag": ["boilerplate", "javascript"],
+    "excerpt": "Boilerplates prontos para acelerar projetos reais com frontend e backend completo. Pare de começar do zero — comece já com estrutura profissional, código organizado e deploy configurado.",
+    "file": "boilerplate-js.md"
+  },
+     {
+    "slug": "intro-web",
+    "title": "Introdução: Programação Web",
+    "date": "2026",
+    "tag": ["dev", "web"],
+    "excerpt": "Este post é um ponto de partida. Não cobre tudo, mas organiza o essencial para quem quer entender como a web funciona antes de sair escrevendo código.",
+    "file": "intro-web.md"
+  },
+  {
+    "slug": "intro-javascript",
+    "title": "Introdução: JavaScript",
+    "date": "2026",
+    "tag": ["dev", "javascript"],
+    "excerpt": "JavaScript é a linguagem de programação que se tornou sinônimo da web. Ela opera diretamente nos navegadores, sem a necessidade de instalações ou compilações visíveis ao usuário.",
+    "file": "intro-javascript.md"
+  },
+    {
+    "slug": "micro-features",
+    "title": "Arquitetura Baseada em Funcionalidades",
+    "date": "2026",
+    "tag": ["dev", "frontend"],
+    "excerpt": "Aplicações crescem. Estruturas organizadas por tipo técnico como `components`, `services` e `utils` começam simples, mas rapidamente viram um sistema difícil de navegar.",
+    "file": "micro-features.md"
+  },
+     {
+    "slug": "resources-links",
+    "title": "Guias e Referências Essenciais Front-End",
+    "date": "2026",
+    "tag": ["dev", "frontend"],
+    "excerpt": "O cenário do desenvolvimento front-end está em constante evolução, com novas tecnologias, frameworks e metodologias surgindo a todo momento.",
+    "file": "resources-links.md"
+  }
+]

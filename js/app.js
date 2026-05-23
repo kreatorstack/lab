@@ -1,77 +1,57 @@
-// app.js
-// Orquestrador central + lógica de artigos/markdown.
+import config from './config.js';
+import router from './router.js';
+import ui from './ui.js';
+import home from './pages/home.js';
+import about from './pages/about.js';
+import contact from './pages/contact.js';
+import legal from './pages/legal.js';
+import notFound from './pages/404.js';
 
-// ─── CACHE E ESTADO ───────────────────────────────────────
-
-const articleContentCache = {};
-let articles = [];
-let currentView = "home";
-
-// ─── CARREGA LISTA DE ARTIGOS ─────────────────────────────
-
-async function loadArticles() {
+async function renderPost(slug) {
   try {
-    const res = await fetch(BASE + "/data/articles.json");
-    if (!res.ok) throw new Error("articles.json não encontrado");
-    articles = await res.json();
-  } catch (err) {
-    console.error("Erro ao carregar articles.json:", err);
-    articles = [];
+    const res = await fetch(config.paths.posts);
+    const posts = await res.json();
+    const post = posts.find(post => post.slug === slug);
+
+    if (!post) {
+      notFound();
+      return;
+    }
+
+    const mdRes = await fetch(`${config.paths.postsDir}${post.file}`);
+    const md = await mdRes.text();
+    const html = marked.parse(md);
+
+    const tags = Array.isArray(post.tag) ? post.tag : (post.tag ? [post.tag] : []);
+    const tagHtml = tags.length ? ' · ' + tags.join(', ') : '';
+
+    ui.setContent(`
+      <a class="back-link" href="#/">← voltar</a>
+      <article>
+        <header class="post-header">
+          <h1>${post.title}</h1>
+          <p class="post-meta">${post.date}${tagHtml}</p>
+        </header>
+        <div class="post-body">${html}</div>
+      </article>
+    `);
+  } catch (e) {
+    ui.setContent('<p>Erro ao carregar post.</p>');
   }
 }
 
-// ─── PRÉ-CARREGA CONTEÚDO DOS ARTIGOS PARA BUSCA ─────────
+function init() {
+  ui.renderNavbar();
+  ui.renderFooter();
 
-async function preloadArticleContents() {
-  await Promise.all(
-    articles.map(async (a) => {
-      if (articleContentCache[a.slug] !== undefined) return;
-      try {
-        const res = await fetch(BASE + `/articles/${a.slug}.md`);
-        if (!res.ok) { articleContentCache[a.slug] = ""; return; }
-        const raw = await res.text();
-        const { body } = parseFrontmatter(raw);
-        articleContentCache[a.slug] = body.toLowerCase();
-      } catch {
-        articleContentCache[a.slug] = "";
-      }
-    })
-  );
+  router.register('/', home);
+  router.register('/about', about);
+  router.register('/contact', contact);
+  router.register('/legal', legal);
+  router.register('/404', notFound);
+  router.register('/p/:slug', renderPost);
+
+  router.init();
 }
 
-// ─── RENDER ARTIGO ────────────────────────────────────────
-
-async function openArticle(slug) {
-  currentView = "article:" + slug;
-  renderLoading();
-
-  const data = await loadMarkdown(BASE + `/articles/${slug}.md`);
-  if (!data) {
-    renderNotFound();
-    return;
-  }
-
-  document.getElementById("app").innerHTML = `
-    <article class="markdown-body">
-      <a href="${BASE}/" id="back-btn" class="back-link">← Voltar</a>
-      ${data.html}
-    </article>
-  `;
-
-  document.getElementById("back-btn").onclick = (e) => {
-    e.preventDefault();
-    navigate('/');
-  };
-
-  if (data.meta.title) document.title = data.meta.title + " | " + CONFIG.siteName;
-  updateNavActive();
-  window.scrollTo(0, 0);
-}
-
-// ─── INIT ─────────────────────────────────────────────────
-
-loadArticles().then(() => {
-  renderNavbar();
-  renderFooter();
-  initRouter();
-});
+init();

@@ -1,60 +1,41 @@
-// ui.js
-// Componentes visuais fixos: navbar e footer.
-
-// ─── NAVBAR ───────────────────────────────────────────────
+import config from './config.js';
 
 function renderNavbar() {
-  const nav = document.getElementById("nav");
-  if (!nav) return;
+  const navEl = document.getElementById('navbar');
+  const links = config.nav
+    .map(({ label, href }) => `<li><a href="${href}">${label}</a></li>`)
+    .join('');
 
-  nav.innerHTML = `
-    <img src="${CONFIG.icon}" style="width: 32px; height: 32px; border-radius: 25%;">
-    <a href="${BASE}/" data-link>Home</a>
+  navEl.innerHTML = `
+    <nav>
+      <a class="nav-brand" href="#/">
+        <img src="assets/icon.png" alt="${config.website.name}" style="width: 3.8rem; height: 3.8rem;" />
+      </a>
+      <ul class="nav-links">${links}</ul>
+    </nav>
   `;
 
-  bindLinks();
+  setActiveLink();
 }
 
-// ─── FOOTER ───────────────────────────────────────────────
+function setActiveLink() {
+  const hash = window.location.hash || '#/';
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    a.classList.toggle('active', a.getAttribute('href') === hash);
+  });
+}
 
 function renderFooter() {
-  const footer = document.getElementById("site-footer");
-  if (!footer) return;
-
-  const products = CONFIG.products.map((p, i) => `
-    ${p.icon} ${p.title}
-    <br><a href="${BASE}/p/${p.slug}" id="footer-product-${i}">→ Acessar</a>
-    <br>
-  `).join("");
-
-  footer.innerHTML = `
-    <div class="footer-inner">
-      <div class="footer-about">
-        <span class="footer-brand">Sobre</span>
-        <p>Desenvolvido por ${CONFIG.author}.</p>
-        <p><br>${products}</p>
-      </div>
-      <div class="footer-col">
-        <span class="footer-col-title">Contato</span>
-        <a href="mailto:${CONFIG.email}">${CONFIG.email}</a>
-        <a href="${CONFIG.github}" target="_blank" rel="noopener">${CONFIG.github.replace('https://', '')}</a>
-        </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© ${CONFIG.siteName}</span>
-      <a href="${BASE}/legal" id="footer-legal-link">Privacidade e Termos</a>
-    </div>
+  const footerEl = document.getElementById('footer');
+  footerEl.innerHTML = `
+    <p>© ${config.website.year} ${config.website.author} · <a href="#/legal">privacidade-termos</a></p>
   `;
-
-  CONFIG.products.forEach((p, i) => {
-    document.getElementById(`footer-product-${i}`).onclick = (e) => {
-      e.preventDefault();
-      navigate('/p/' + p.slug);
-    };
-  });
-
-  document.getElementById("footer-legal-link").onclick = (e) => {
-    e.preventDefault();
-    navigate('/legal');
-  };
 }
+
+function setContent(html) {
+  document.getElementById('app').innerHTML = html;
+}
+
+window.addEventListener('hashchange', setActiveLink);
+
+export default { renderNavbar, renderFooter, setContent };

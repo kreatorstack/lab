@@ -1,211 +1,120 @@
-/* queries.css */
-/* Todos os breakpoints responsivos */
-
-/* ─── WIDE DESKTOP (1400px+) ─────────────────────────── */
-
-@media (min-width: 1400px) {
-     #app {
-          padding-top: 5.5rem;
-          padding-bottom: 5.5rem;
+/* ── TABLET ── */
+@media (max-width: 860px) {
+     :root {
+          --max-w: 100%;
      }
-}
 
-/* ─── LARGE DESKTOP (1280px–1399px) ─────────────────── */
-
-@media (min-width: 1280px) and (max-width: 1399px) {
-     #app {
-          padding-top: 5rem;
-          padding-bottom: 5rem;
-     }
-}
-
-/* ─── MEDIUM DESKTOP / LAPTOP (1025px–1279px) ────────── */
-
-@media (max-width: 1279px) {
-     #nav {
-          padding: 1rem 3rem;
+     #navbar {
+          padding: 1.1rem 2rem;
      }
 
      #app {
-          max-width: 960px;
-          padding: 4rem 3rem;
+          padding: 3rem 2rem;
      }
 
-     #site-footer {
-          padding-left: 3rem;
-          padding-right: 3rem;
-     }
-
-     .footer-inner,
-     .footer-bottom {
-          max-width: 960px;
+     #footer {
+          padding: 1.5rem 2rem;
      }
 }
 
-/* ─── TABLET (768px–1024px) ──────────────────────────── */
-
-@media (max-width: 1024px) {
-     #nav {
-          padding: 1rem 2.5rem;
+/* ── MOBILE ── */
+@media (max-width: 600px) {
+     html {
+          font-size: 16px;
      }
 
-     #app {
-          max-width: 100%;
-          padding: 3.5rem 2.5rem;
+     #navbar {
+          padding: 1rem 1.25rem;
      }
 
-     #site-footer {
-          padding-left: 2.5rem;
-          padding-right: 2.5rem;
+     nav {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.85rem;
      }
 
-     .footer-inner,
-     .footer-bottom {
-          max-width: 100%;
-     }
-
-     .home-title {
-          font-size: 2.6rem;
-     }
-
-     .markdown-body {
-          max-width: 100%;
-     }
-}
-
-/* ─── SMALL TABLET (601px–767px) ────────────────────── */
-
-@media (max-width: 767px) {
-     #nav {
-          padding: 0.9rem 1.5rem;
+     .nav-links {
           gap: 1.25rem;
      }
 
-     #app {
-          padding: 2.75rem 1.5rem;
-     }
-
-     .home-title {
-          font-size: 2.1rem;
-     }
-
-     .home-intro {
-          margin-bottom: 2.5rem;
-          padding-bottom: 2.5rem;
-     }
-
-     .article-search {
-          max-width: 100%;
-     }
-
-     #site-footer {
-          padding: 2.5rem 1.5rem 1.75rem;
-     }
-
-     .footer-inner {
-          gap: 2.5rem;
-     }
-}
-
-/* ─── MOBILE (max 600px) ─────────────────────────────── */
-
-@media (max-width: 600px) {
-     body {
-          padding-top: 49px;
-     }
-
-     #nav {
-          padding: 0.75rem 1rem;
-          gap: 1rem;
+     .nav-links a {
+          font-size: 0.9rem;
      }
 
      #app {
-          max-width: 100%;
-          padding: 2rem 1rem;
+          padding: 2.25rem 1.25rem;
      }
 
-     .home-intro {
-          margin-bottom: 2rem;
-          padding-bottom: 2rem;
+     #footer {
+          padding: 1.25rem;
+          font-size: 0.78rem;
      }
 
-     .home-title {
+     h1 {
           font-size: 1.75rem;
      }
 
-     .home-subtitle {
-          font-size: 0.95rem;
+     h2 {
+          font-size: 1.3rem;
      }
 
-     .kits-contact {
-          flex-direction: column;
+     h3 {
+          font-size: 1.1rem;
      }
 
-     .footer-inner {
-          flex-direction: column;
-          gap: 1.75rem;
+     .post-list {
+          gap: 2rem;
      }
 
-     #site-footer {
-          padding: 2rem 1rem 1.5rem;
+     .post-item {
+          padding-bottom: 2rem;
      }
 
-     .footer-inner,
-     .footer-bottom {
-          max-width: 100%;
-     }
-
-     .footer-bottom {
-          flex-direction: column;
-          align-items: flex-start;
-          gap: 0.5rem;
-     }
-
-     .article-list li {
-          grid-template-columns: 1fr;
-          gap: 0.25rem;
-     }
-
-     .article-list li:hover {
-          background: none;
-          margin: 0;
-          padding-left: 0;
-          padding-right: 0;
-     }
-
-     .article-list span {
-          font-size: 0.72rem;
-     }
-
-     .article-search {
-          max-width: 100%;
-     }
-
-     .back-link {
-          margin-bottom: 2rem;
-     }
-
-     .markdown-body h1 {
-          font-size: 1.65rem;
-     }
-
-     .markdown-body h2 {
+     .post-title {
           font-size: 1.2rem;
      }
 
-     .markdown-body {
+     .post-excerpt {
+          font-size: 0.95rem;
+     }
+
+     .article-body {
           font-size: 1rem;
-     }
-}
-
-/* ─── TINY MOBILE (max 380px) ───────────────────────── */
-
-@media (max-width: 380px) {
-     .home-title {
-          font-size: 1.5rem;
+          line-height: 1.75;
      }
 
-     #nav a {
-          font-size: 0.78rem;
+     .article-header {
+          margin-bottom: 2rem;
+          padding-bottom: 1.25rem;
+     }
+
+     .article-body h2,
+     .article-body h3 {
+          margin-top: 2rem;
+     }
+
+     .contact-form {
+          max-width: 100%;
+     }
+
+     .contact-form input,
+     .contact-form textarea {
+          font-size: 0.95rem;
+          padding: 0.7rem 0.85rem;
+     }
+
+     .btn {
+          width: 100%;
+          text-align: center;
+          align-self: stretch;
+          padding: 0.85rem 1rem;
+     }
+
+     .not-found {
+          padding: 3.5rem 0;
+     }
+
+     .not-found h1 {
+          font-size: 4rem;
      }
 }

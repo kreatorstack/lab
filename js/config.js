@@ -1,26 +1,19 @@
-// config.js
-// Configuração central do blog. Edite aqui para personalizar.
-
-// ─── BASE URL ─────────────────────────────────────────────
-
-const BASE = location.hostname === '127.0.0.1' || location.hostname === 'localhost'
-  ? ''
-  : '/lab';
-
-// ─── CONFIG ───────────────────────────────────────────────
-
-const CONFIG = {
-  siteName:  "grcodev/lab",
-  author:    "Guilherme Ribeiro",
-  email:     "topverbs@gmail.com",
-  github:    "https://github.com/grcodev",
-  icon:      `${BASE}/lab_icon.png`,
-
-  products: [
-    {
-      icon:  "💬",
-      title: "Dúvidas/Suporte",
-      slug:  "support",
-    },   
+const config = {
+  website: {
+    name: 'grfront/lab',
+    description: 'Um blog totalmente Front-end.',
+    author: 'Guilherme Ribeiro',
+    year: new Date().getFullYear(),
+  },
+  paths: {
+    posts: './data/content.json',
+    postsDir: './content/',
+  },
+  nav: [
+    { label: 'home', href: '#/' },
+    { label: 'sobre', href: '#/about' },
+    { label: 'contato', href: '#/contact' },
   ],
 };
+
+export default config;

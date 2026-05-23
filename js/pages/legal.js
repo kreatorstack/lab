@@ -1,83 +1,16 @@
-// pages/legal.js
-// Responsável por: renderizar a página de documentos legais
-// (Política de Privacidade, Política de Cookies, Termos de Uso).
+import ui from '../ui.js';
 
-function showLegal() {
-  currentView = "legal";
-  document.title = "Legal | grcodev/lab";
-
-  const app = document.getElementById("app");
-  app.innerHTML = `
-    <div class="legal-wrap markdown-body">
-      <a href="${BASE}/" id="back-from-legal" class="back-link">← Voltar</a>
-
-      <h1>Documentos Legais — grcodev/lab</h1>
-      <blockquote>
-        <strong>grcodev/lab</strong> · Microempreendedor Individual<br>
-        Produtos digitais, tutoriais e conteúdo educacional sobre programação<br>
-        Última atualização: abril de 2026
-      </blockquote>
-
-      <h2>Sumário</h2>
-      <ol>
-        <li><a href="#privacidade">Política de Privacidade</a></li>
-        <li><a href="#cookies">Política de Cookies</a></li>
-        <li><a href="#termos">Termos de Uso</a></li>
-      </ol>
-
-      <hr>
-
-      <h2 id="privacidade">1. Política de Privacidade</h2>
-      <h3>1.1 Quem somos</h3>
-      <p>A <strong>grcodev/lab</strong> é uma microempresa individual dedicada à criação e venda de produtos digitais — incluindo PDFs, tutoriais e materiais educacionais sobre programação — e à manutenção de um blog de conteúdo instrucional.</p>
-
-      <h3>1.2 Quais dados coletamos</h3>
-      <p><strong>Dados fornecidos por você:</strong> nome, e-mail, dados de pagamento (processados por terceiros), mensagens de contato.</p>
-      <p><strong>Dados coletados automaticamente:</strong> IP, navegador, sistema operacional, páginas visitadas, fonte de acesso.</p>
-
-      <h3>1.3 Para que usamos seus dados</h3>
-      <p>Processamento de compras, entrega de produtos, suporte, newsletters (com consentimento), melhoria do conteúdo, obrigações legais e prevenção de fraudes.</p>
-
-      <h3>1.4 Base legal (LGPD)</h3>
-      <p>Art. 7º da Lei nº 13.709/2018 — execução de contrato, consentimento, obrigação legal e legítimo interesse.</p>
-
-      <h3>1.5 Compartilhamento</h3>
-      <p>Não vendemos seus dados. Compartilhamos apenas com plataformas de pagamento, e-mail e analytics — todos contratualmente obrigados a tratar com segurança.</p>
-
-      <h3>1.6 Retenção</h3>
-      <p>Dados de compra: 5 anos · Newsletter: até cancelamento · Logs: 6 meses · Suporte: 2 anos.</p>
-
-      <h3>1.7 Seus direitos</h3>
-      <p>Confirmar, acessar, corrigir, excluir, revogar consentimento, portabilidade e reclamar à ANPD.</p>
-
-      <hr>
-
-      <h2 id="cookies">2. Política de Cookies</h2>
-      <p>Utilizamos cookies estritamente necessários (sessão, CSRF), de análise (Google Analytics, anonimizados) e de funcionalidade (preferências). Cookies de marketing apenas com consentimento.</p>
-      <p>Você pode gerenciar cookies nas configurações do seu navegador a qualquer momento.</p>
-
-      <hr>
-
-      <h2 id="termos">3. Termos de Uso</h2>
-      <h3>3.1 Licença dos produtos digitais</h3>
-      <p>Licença pessoal, intransferível e não exclusiva para uso pessoal. É proibido revender, redistribuir ou criar produtos derivados para venda.</p>
-
-      <h3>3.2 Política de reembolso</h3>
-      <p>Produto com defeito técnico → reenvio ou reembolso integral. Conteúdo diferente do descrito → reembolso em até 7 dias. Arrependimento em até 7 dias sem download → reembolso integral (CDC Art. 49).</p>
-
-      <h3>3.3 Lei aplicável</h3>
-      <p>Leis da República Federativa do Brasil. Foro da comarca do domicílio do titular.</p>
-
-      <hr>
-      <p><em>© grcodev/lab — Todos os direitos reservados.</em></p>
+function legal() {
+  ui.setContent(`
+    <div class="page-header">
+      <h1>Legal</h1>
     </div>
-  `;
-
-  updateNavActive();
-  window.scrollTo(0, 0);
-
-  document.getElementById("back-from-legal").onclick = (e) => {
-    e.preventDefault();
-    navigate('/');
-  };
+    <p>Todo o conteúdo deste website é de responsabilidade do autor. As opiniões expressas são pessoais.</p>
+    <h2>Privacidade</h2>
+    <p>Este site não coleta dados pessoais, não utiliza cookies e não rastreia usuários.</p>
+    <h2>Conteúdo</h2>
+    <p>Os textos publicados podem ser reproduzidos com atribuição ao autor original.</p>
+  `);
 }
+
+export default legal;

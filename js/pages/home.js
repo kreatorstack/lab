@@ -1,66 +1,69 @@
-// pages/home.js
-// Responsável por: render da home e lista de artigos com busca.
+import config from '../config.js';
+import ui from '../ui.js';
 
-function renderArticleList(filter = "") {
-  const q = filter.toLowerCase().trim();
-
-  const filtered = q
-    ? articles.filter((a) => {
-        const inTitle       = a.title.toLowerCase().includes(q);
-        const inDescription = (a.description || "").toLowerCase().includes(q);
-        const inTags        = (a.tags || []).some((t) => t.toLowerCase().includes(q));
-        const inContent     = (articleContentCache[a.slug] || "").includes(q);
-        return inTitle || inDescription || inTags || inContent;
-      })
-    : articles;
-
-  if (filtered.length === 0) {
-    return `<p class="search-empty">Nenhum artigo encontrado.</p>`;
+function renderList(posts) {
+  if (posts.length === 0) {
+    return '<p style="color:var(--muted)">nenhum resultado.</p>';
   }
-
-  return `<ul class="article-list">${filtered.map((a) => `
-    <li>
-      <div class="article-list-main">
-        <a href="${BASE}/p/${a.slug}" data-article="${a.slug}">${a.title}</a>
-        ${a.description ? `<p class="article-description">${a.description}</p>` : ""}
-      </div>
-      <span>${a.date}</span>
-    </li>
-  `).join("")}</ul>`;
-}
-
-function renderHome() {
-  currentView = "home";
-  document.title = "grcodev/lab";
-
-  document.getElementById("app").innerHTML = `
-    <section class="home-intro">
-      <h1 class="home-title">grcodev/lab</h1>
-      <p class="home-subtitle">Front-end Hub: Projetos & Guias para Desenvolvedores</p>
-    </section>
-
-    <section class="articles-section">
-      <h2>Arquivo</h2>
-      <input
-        id="article-search"
-        class="article-search"
-        type="text"
-        placeholder="🔍 Pesquisar"
-        autocomplete="off"
-      />
-      <div id="article-list-container">
-        ${renderArticleList()}
-      </div>
-    </section>
+  return `
+    <ul class="post-list">
+      ${posts.map(post => {
+        const tags = Array.isArray(post.tag) ? post.tag : (post.tag ? [post.tag] : []);
+        const tagHtml = tags.length
+          ? ' · ' + tags.map(t => `<span class="post-tag">${t}</span>`).join(' ')
+          : '';
+        return `
+        <li class="post-item">
+          <p class="post-date">${post.date}${tagHtml}</p>
+          <h2 class="post-title"><a href="#/p/${post.slug}">${post.title}</a></h2>
+          ${post.excerpt ? `<p class="post-excerpt">${post.excerpt}</p>` : ''}
+        </li>
+      `;
+      }).join('')}
+    </ul>
   `;
-
-  document.getElementById("article-search").addEventListener("input", (e) => {
-    document.getElementById("article-list-container").innerHTML =
-      renderArticleList(e.target.value);
-    bindArticleLinks();
-  });
-
-  bindArticleLinks();
-  preloadArticleContents();
-  updateNavActive();
 }
+
+async function home() {
+  try {
+    const res = await fetch(config.paths.posts);
+    const posts = await res.json();
+
+    const sorted = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    ui.setContent(`
+      <div class="search-wrap">
+        <input
+          type="text"
+          id="search-input"
+          class="search-input"
+          placeholder="🔍 Pesquisar"
+          autocomplete="off"
+        />
+      </div>
+      <div id="post-list-wrap">${renderList(sorted)}</div>
+    `);
+
+    document.getElementById('search-input').addEventListener('input', e => {
+      const q = e.target.value.toLowerCase().trim();
+      if (!q) {
+        document.getElementById('post-list-wrap').innerHTML = renderList(sorted);
+        return;
+      }
+      const filtered = sorted.filter(post => {
+        const tags = Array.isArray(post.tag) ? post.tag : (post.tag ? [post.tag] : []);
+        return (
+          post.title.toLowerCase().includes(q) ||
+          (post.excerpt && post.excerpt.toLowerCase().includes(q)) ||
+          tags.some(t => t.toLowerCase().includes(q))
+        );
+      });
+      document.getElementById('post-list-wrap').innerHTML = renderList(filtered);
+    });
+
+  } catch (e) {
+    ui.setContent('<p>Erro ao carregar posts.</p>');
+  }
+}
+
+export default home;

@@ -1,21 +1,13 @@
-// pages/404.js
-// Renderiza a tela de página não encontrada.
+import ui from '../ui.js';
 
-function renderNotFound() {
-  const app = document.getElementById("app");
-
-  app.innerHTML = `
+function notFound() {
+  ui.setContent(`
     <div class="not-found">
-      <p class="not-found-code">404</p>
+      <h1>404</h1>
       <p>Página não encontrada.</p>
-      <a href="#" id="back-btn">← Voltar para home</a>
+      <a href="#/">← voltar ao início</a>
     </div>
-  `;
-
-  document.title = "404 | grcodev/lab";
-
-  document.getElementById("back-btn").onclick = (e) => {
-    e.preventDefault();
-    navigate('/');
-  };
+  `);
 }
+
+export default notFound;

@@ -1,4 +1,3 @@
-# Arquitetura Baseada em Funcionalidades
 
 Aplicações crescem. Estruturas organizadas por tipo técnico como `components`, `services` e `utils` começam simples, mas rapidamente viram um sistema difícil de navegar.
 

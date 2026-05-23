@@ -1,79 +1,33 @@
-// router.js
+const routes = {};
 
-// ─── NAVIGATE ────────────────────────────────────────────
-
-function navigate(path, { replace = false } = {}) {
-  if (replace) {
-    history.replaceState({}, '', BASE + path);
-  } else {
-    history.pushState({}, '', BASE + path);
-  }
-  resolveRoute(path);
+function register(path, handler) {
+  routes[path] = handler;
 }
 
-// ─── RESOLVE ROUTE ────────────────────────────────────────
+function resolve() {
+  const hash = window.location.hash || '#/';
+  const path = hash.slice(1) || '/';
 
-function resolveRoute(path) {
-  if (!path || path === '' || path === '/index.html') path = '/';
-  if (!path.startsWith('/')) path = '/' + path;
-  if (path !== '/' && path.endsWith('/')) path = path.slice(0, -1);
-
-  if (path === '/') {
-    renderHome();
-    return;
-  }
-
+  // rota dinâmica: /p/:slug
   if (path.startsWith('/p/')) {
-    const slug = path.slice('/p/'.length);
-    if (slug) {
-      openArticle(slug);
+    const slug = path.replace('/p/', '');
+    if (routes['/p/:slug']) {
+      routes['/p/:slug'](slug);
       return;
     }
   }
 
-  // Redireciona rotas antigas /post/ para /p/ (backward compat)
-  if (path.startsWith('/post/')) {
-    const slug = path.slice('/post/'.length);
-    if (slug) {
-      navigate('/p/' + slug, { replace: true });
-      return;
-    }
-  }
-
-  if (path === '/legal') {
-    showLegal();
-    return;
-  }
-
-  renderNotFound();
+  const handler = routes[path] || routes['/404'];
+  if (handler) handler();
 }
 
-// ─── EXTRAI PATH DA URL ATUAL ─────────────────────────────
-
-function currentPath() {
-  let path = location.pathname;
-  if (BASE && path.startsWith(BASE + '/')) {
-    path = path.slice(BASE.length);
-  } else if (BASE && path === BASE) {
-    path = '/';
-  }
-  if (path === '/index.html') path = '/';
-  return path || '/';
+function init() {
+  window.addEventListener('hashchange', resolve);
+  resolve();
 }
 
-// ─── INIT ─────────────────────────────────────────────────
-
-function initRouter() {
-  const params = new URLSearchParams(location.search);
-  const redirectPath = params.get('path');
-
-  if (redirectPath) {
-    navigate(redirectPath, { replace: true });
-  } else {
-    resolveRoute(currentPath());
-  }
-
-  window.addEventListener('popstate', () => {
-    resolveRoute(currentPath());
-  });
+function navigate(path) {
+  window.location.hash = path;
 }
+
+export default { register, init, navigate };

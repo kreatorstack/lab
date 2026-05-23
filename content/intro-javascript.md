@@ -1,4 +1,3 @@
-# Introdução ao JavaScript: A Linguagem Onipresente da Web
 
 JavaScript é a linguagem de programação que se tornou sinônimo da web. Ela opera diretamente nos navegadores, sem a necessidade de instalações ou compilações visíveis ao usuário. Sua versatilidade a levou a transcender o ambiente do navegador, marcando presença em servidores, dispositivos embarcados e aplicações desktop. Dentre as linguagens criadas na década de 90, o JavaScript é a única que alcançou uma ubiquidade tão notável.
 
