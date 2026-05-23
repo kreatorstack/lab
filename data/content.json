@@ -23,6 +23,14 @@
     "excerpt": "Boilerplates prontos para acelerar projetos reais com frontend e backend completo. Pare de começar do zero — comece já com estrutura profissional, código organizado e deploy configurado.",
     "file": "boilerplate-js.md"
   },
+       {
+    "slug": "frontmap",
+    "title": "Roadmap Programação Front-end 2026",
+    "date": "2026",
+    "tag": ["roadmap", "frontend"],
+    "excerpt": "Um roteiro progressivo para quem esta começando ou reorganizando o aprendizado de desenvolvimento frontend.",
+    "file": "frontmap.md"
+  },
      {
     "slug": "intro-web",
     "title": "Introdução: Programação Web",
@@ -31,33 +39,17 @@
     "excerpt": "Este post é um ponto de partida. Não cobre tudo, mas organiza o essencial para quem quer entender como a web funciona antes de sair escrevendo código.",
     "file": "intro-web.md"
   }, 
-{
-    "slug": "html-css",
-    "title": "Introdução: HTML + CSS",
-    "date": "2026",
-    "tag": ["html", "css"],
-    "excerpt": "Toda pagina que voce acessa no navegador e construida sobre duas linguagens: HTML e CSS.",
-    "file": "html-css.md"
-  },
-  {
-    "slug": "intro-javascript",
-    "title": "Introdução: JavaScript",
-    "date": "2026",
-    "tag": ["dev", "javascript"],
-    "excerpt": "JavaScript é a linguagem de programação que se tornou sinônimo da web. Ela opera diretamente nos navegadores, sem a necessidade de instalações ou compilações visíveis ao usuário.",
-    "file": "intro-javascript.md"
-  },
     {
     "slug": "micro-features",
     "title": "Arquitetura Baseada em Funcionalidades",
     "date": "2026",
-    "tag": ["dev", "frontend"],
+    "tag": ["dev", "system"],
     "excerpt": "Aplicações crescem. Estruturas organizadas por tipo técnico como `components`, `services` e `utils` começam simples, mas rapidamente viram um sistema difícil de navegar.",
     "file": "micro-features.md"
   },
      {
-    "slug": "resources-links",
-    "title": "Guias e Referências Essenciais Front-End",
+    "slug": "resources",
+    "title": "Guias + Links + Referências Front-End",
     "date": "2026",
     "tag": ["dev", "frontend"],
     "excerpt": "O cenário do desenvolvimento front-end está em constante evolução, com novas tecnologias, frameworks e metodologias surgindo a todo momento.",
