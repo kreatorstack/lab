@@ -3,7 +3,7 @@ import ui from '../ui.js';
 function legal() {
   ui.setContent(`
     <div class="page-header">
-      <h1>Legal</h1>
+      <h1>Privacidade e Termos</h1>
     </div>
     <p>Todo o conteúdo deste website é de responsabilidade do autor. As opiniões expressas são pessoais.</p>
     <h2>Privacidade</h2>

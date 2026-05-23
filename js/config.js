@@ -1,6 +1,6 @@
 const config = {
   website: {
-    name: 'grfront/lab',
+    name: 'FRONTLAB',
     description: 'Um blog totalmente Front-end.',
     author: 'Guilherme Ribeiro',
     year: new Date().getFullYear(),
