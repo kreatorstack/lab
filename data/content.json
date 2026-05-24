@@ -1,19 +1,19 @@
 [
          {
-    "slug": "info_products",
-    "title": "EBOOKs Git/VSCode/Markdown/Pandoc + JS Boilerplate + Documentação README + DEPLOY",
+    "slug": "front-kit",
+    "title": "EBOOKs Git/VSCode/Markdown/Pandoc/Workflow + JS Boilerplate + README + DEPLOY",
     "date": "2026",
     "tag": ["ebook", "tutorial", "boilerplate"],
-    "excerpt": "Três produtos, uma base: eBooks e boilerplates para quem quer estudar programação com menos fricção e com ferramentas essenciais.",
-    "file": "info_products.md"
+    "excerpt": "Três produtos, uma base: eBooks e boilerplates para estudar programação com menos fricção e com ferramentas essenciais.",
+    "file": "front-kit.md"
   },
        {
-    "slug": "frontmap",
+    "slug": "roadmap",
     "title": "Roadmap: Programação Front-end",
     "date": "2026",
     "tag": ["roadmap", "frontend"],
     "excerpt": "Um roteiro progressivo para quem está começando ou reorganizando o aprendizado de desenvolvimento frontend.",
-    "file": "frontmap.md"
+    "file": "roadmap.md"
   },
      {
     "slug": "intro-web",

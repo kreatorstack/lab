@@ -12,11 +12,22 @@ O eBook também cobre o deploy com GitHub Pages — como publicar projetos está
 
 Ao concluir, você terá um setup completo e profissional para desenvolver, versionar e publicar projetos web com confiança — sem depender de tutoriais dispersos ou documentação confusa.
 
+---
+
+<a style="vertical-align: middle; display: inline-flex; align-items: center; gap: 8px;" href="https://wa.me/5531996981103">
+  💰 COMPRAR eBook Git + VSCode →
+  <img src="./assets/whatsapp.png" 
+    width="25" 
+    height="25"
+    alt="WhatsApp"/></a>
+
+
+
 > 57,00 REAIS · Arquivo EPUB · PIX / Transferência
 
-[💰 Comprar eBook Git + VSCode →](https://gitvscode.pages.dev)
 
----
+
+
 
 <img src="./assets/ebook-pandoc.png" width="45%" height="45%" style="border-radius:2%;" />
 
@@ -32,11 +43,22 @@ O passo final é a exportação profissional: como gerar EPUBs bem estruturados 
 
 Para fechar, um checklist completo de instalação, links para ferramentas recomendadas e os próximos passos para quem quer continuar evoluindo. Simples, direto e útil: menos dependências pesadas, mais produção real.
 
+---
+
+<a style="vertical-align: middle; display: inline-flex; align-items: center; gap: 8px;" href="https://wa.me/5531996981103">
+  💰 COMPRAR eBook Markdown + Pandoc →
+  <img src="./assets/whatsapp.png" 
+    width="25" 
+    height="25"
+    alt="WhatsApp"/></a>
+
+
 > 57,00 REAIS · Arquivo EPUB · PIX / Transferência
 
-[💰 Comprar eBook Markdown + Pandoc →](https://ebookmd.pages.dev)
 
----
+
+
+
 
 <img src="./assets/freelancer.png" width="80%" height="80%" style="border-radius:2%;" />
 
@@ -52,6 +74,17 @@ No backend, o kit cobre uma API REST completa com CRUD funcional, arquitetura MV
 
 Como bônus, o kit inclui um pack de ícones SVG, roadmaps para desenvolvedores e assets visuais prontos para uso. Tudo em um único arquivo ZIP, entregue via PIX ou transferência.
 
+---
+
+<a style="vertical-align: middle; display: inline-flex; align-items: center; gap: 8px;" href="https://wa.me/5531996981103">
+  💰 COMPRAR JS Boilerplate Kit →
+  <img src="./assets/whatsapp.png" 
+    width="25" 
+    height="25"
+    alt="WhatsApp"/></a>
+
+
 > 245,00 REAIS · Arquivo ZIP · PIX / Transferência
 
-[💰 Comprar JS Boilerplate Kit →](https://jskit.pages.dev)
+
+
