@@ -1,27 +1,11 @@
 [
-  {
-    "slug": "ebook-git",
-    "title": "📘 Manual Completo: Git + Visual Studio Code",
+         {
+    "slug": "info_products",
+    "title": "EBOOKs Git/VSCode/Markdown/Pandoc + JS Boilerplate + Documentação README + DEPLOY",
     "date": "2026",
-    "tag": ["ebook", "git", "vscode"],
-    "excerpt": "Aprenda as duas ferramentas essenciais para qualquer desenvolvedor web. Este eBook cobre instalação, configuração e uso prático do Git e do Visual Studio Code — do zero ao primeiro deploy — com linguagem direta e foco em aplicação imediata.",
-    "file": "ebook-git.md"
-  },
-   {
-    "slug": "ebook-pandoc",
-    "title": "📕 EBooks profissionais usando Markdown + Pandoc",
-    "date": "2026",
-    "tag": ["ebook", "md", "pandoc"],
-    "excerpt": "Um guia prático para transformar texto simples em conteúdo profissional — eBooks, PDFs, documentações e EPUBs — usando ferramentas leves, abertas e independentes de plataformas complexas. Feito para quem quer produzir mais com menos fricção.",
-    "file": "ebook-pandoc.md"
-  },
-   {
-    "slug": "boilerplate-js",
-    "title": "🛠️ JS Boilerplate Kit + Documentação README + DEPLOY",
-    "date": "2026",
-    "tag": ["boilerplate", "javascript"],
-    "excerpt": "Boilerplates prontos para acelerar projetos reais com frontend e backend completo. Pare de começar do zero — comece já com estrutura profissional, código organizado e deploy configurado.",
-    "file": "boilerplate-js.md"
+    "tag": ["ebook", "tutorial", "boilerplate"],
+    "excerpt": "Três produtos, uma base: eBooks e boilerplates para quem quer estudar programação com menos fricção e com ferramentas essenciais.",
+    "file": "info_products.md"
   },
        {
     "slug": "frontmap",
