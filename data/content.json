@@ -1,11 +1,11 @@
 [
          {
-    "slug": "ebook-frontend",
-    "title": "Manual Git + VSCode + Front-end JavaScript Roadmap + README + DEPLOY — 📘EBOOK/EPUB",
+    "slug": "ebook-roadmap",
+    "title": "Frontend Roadmap: Git + VSCode + Projetos JavaScript + README + DEPLOY — 📘EBOOK/EPUB",
     "date": "2026",
     "tag": ["ebook", "git/vscode", "javascript"],
     "excerpt": "Um guia completo e progressivo para sair do zero e chegar ao nível profissional no desenvolvimento front-end — sem pular etapas, sem lacunas, sem depender de tutoriais soltos que nunca formam uma visão completa.",
-    "file": "ebook-frontend.md"
+    "file": "ebook-roadmap.md"
   },
  
          {
