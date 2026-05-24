@@ -4,6 +4,7 @@
 
 <img src="./assets/ebook-pandoc.png" width="45%" height="45%" style="border-radius:2%;" />
 
+## eBook Markdown + Pandoc
 
 
 Um guia prático para transformar texto simples em conteúdo profissional — eBooks, PDFs, documentações e EPUBs — usando ferramentas leves, abertas e independentes de plataformas complexas. Feito para quem quer produzir mais com menos fricção.
@@ -16,7 +17,6 @@ Com o ambiente pronto, o foco muda para o Pandoc — uma das ferramentas mais po
  
 O passo final é a exportação profissional: como gerar EPUBs bem estruturados e PDFs limpos prontos para distribuição, venda ou entrega a clientes. Ajustes de aparência, estrutura interna e boas práticas para quem quer entregar um produto digital de qualidade — não apenas um arquivo convertido.
 
-<img src="./assets/empire.png" width="80%" height="80%" style="border-radius:2%;" />
 
  
 Para fechar, um checklist completo de instalação, links para ferramentas recomendadas e os próximos passos para quem quer continuar evoluindo. Simples, direto e útil: menos dependências pesadas, mais produção real.
@@ -34,9 +34,8 @@ Para fechar, um checklist completo de instalação, links para ferramentas recom
 
 
 
-> 57,00 REAIS        
-> Arquivo EPUB  
-> PIX / Transferência     
+> 57,00 REAIS · Arquivo EPUB · PIX / Transferência
+    
 
 
 

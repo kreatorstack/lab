@@ -1,33 +1,35 @@
 [
          {
-    "slug": "front-kit",
-    "title": "🛠️ Git/VSCode/Workflow + JavaScript Boilerplate + README + DEPLOY",
+    "slug": "ebook-frontend",
+    "title": "Manual Git + VSCode + Front-end JavaScript Roadmap + README + DEPLOY — 📘EBOOK/EPUB",
     "date": "2026",
     "tag": ["ebook", "git/vscode", "javascript"],
-    "excerpt": "Três produtos, uma base: eBooks e boilerplates para estudar programação com menos fricção e com ferramentas essenciais.",
-    "file": "front-kit.md"
+    "excerpt": "Um guia completo e progressivo para sair do zero e chegar ao nível profissional no desenvolvimento front-end — sem pular etapas, sem lacunas, sem depender de tutoriais soltos que nunca formam uma visão completa.",
+    "file": "ebook-frontend.md"
   },
+ 
          {
     "slug": "ebook-pandoc",
-    "title": "📕 Como criar eBooks profissionais usando Markdown + Pandoc",
+    "title": "Como criar eBooks profissionais usando Markdown + Pandoc — 📕EBOOK/EPUB",
     "date": "2026",
     "tag": ["ebook", "markdown", "pandoc"],
     "excerpt": "Um guia prático para transformar texto simples em conteúdo profissional — eBooks, PDFs, documentações e EPUBs — usando ferramentas leves, abertas e independentes de plataformas complexas.",
     "file": "ebook-pandoc.md"
   },
-       {
-    "slug": "roadmap",
-    "title": "Roadmap: Programação Front-end",
+    {
+    "slug": "freelancer",
+    "title": "Programador Front-End Freelancer: Oportunidades Reais no Mercado Digital",
     "date": "2026",
-    "tag": ["roadmap", "frontend"],
-    "excerpt": "Um roteiro progressivo para quem está começando ou reorganizando o aprendizado de desenvolvimento frontend.",
-    "file": "roadmap.md"
-  },
+    "tag": ["web", "dev"],
+    "excerpt": "O mercado para programadores web e desenvolvedores front-end continua crescendo com força por causa da expansão de pequenos negócios digitais, criadores de conteúdo, lojas online, startups e empresas tradicionais que precisam de presença na internet.",
+    "file": "freelancer.md"
+  }, 
+
      {
     "slug": "intro-web",
-    "title": "Introdução: Programação Web",
+    "title": "História da Programação Web e a Origem do Front-End",
     "date": "2026",
-    "tag": ["dev", "web"],
+    "tag": ["web", "frontend"],
     "excerpt": "Este post é um ponto de partida. Não cobre tudo, mas organiza o essencial para quem quer entender como a web funciona antes de sair escrevendo código.",
     "file": "intro-web.md"
   }, 
@@ -38,6 +40,8 @@
     "date": "2026",
     "tag": ["dev", "frontend"],
     "excerpt": "O cenário do desenvolvimento front-end está em constante evolução, com novas tecnologias, frameworks e metodologias surgindo a todo momento.",
-    "file": "resources-links.md"
+    "file": "resources.md"
   }
 ]
+
+
