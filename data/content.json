@@ -1,11 +1,19 @@
 [
          {
     "slug": "front-kit",
-    "title": "EBOOKs Git/VSCode/Markdown/Pandoc/Workflow + JS Boilerplate + README + DEPLOY",
+    "title": "EBOOK Git/VSCode/Workflow + JavaScript Boilerplate + README + DEPLOY",
     "date": "2026",
-    "tag": ["ebook", "tutorial", "boilerplate"],
+    "tag": ["ebook", "git/vscode", "javascript"],
     "excerpt": "Três produtos, uma base: eBooks e boilerplates para estudar programação com menos fricção e com ferramentas essenciais.",
     "file": "front-kit.md"
+  },
+         {
+    "slug": "ebook-pandoc",
+    "title": "📕 Como criar eBooks profissionais usando Markdown + Pandoc",
+    "date": "2026",
+    "tag": ["ebook", "markdown", "pandoc"],
+    "excerpt": "Um guia prático para transformar texto simples em conteúdo profissional — eBooks, PDFs, documentações e EPUBs — usando ferramentas leves, abertas e independentes de plataformas complexas.",
+    "file": "ebook-pandoc.md"
   },
        {
     "slug": "roadmap",
