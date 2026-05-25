@@ -7,8 +7,8 @@ function contact() {
     </div>
     <ul class="contact-links">
       <li><a href="mailto:topverbs@gmail.com" target="_blank">topverbs@gmail.com</a></li>
-      <li><a href="https://linkedin.com/in/grfront" target="_blank">linkedin.com/in/grfront</a></li>
-      <li><a href="https://github.com/grfront" target="_blank">github.com/grfront</a></li>
+      <li><a href="https://linkedin.com/in/gribeirodev" target="_blank">linkedin.com/in/grfront</a></li>
+      <li><a href="https://github.com/kreatorstack" target="_blank">github.com/kreatorstack</a></li>
       <li><a href="https://instagram.com/front.stack" target="_blank">instagram.com/front.stack</a></li>
     </ul>
   `);
