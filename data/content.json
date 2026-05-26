@@ -1,7 +1,7 @@
 [
          {
     "slug": "ebook-roadmap",
-    "title": "Frontend Roadmap: Git + VSCode + Projetos JavaScript + README + DEPLOY — 📘EBOOK/EPUB",
+    "title": "JavaScript Roadmap: Projetos + Documentação README + DEPLOY — 📘EBOOK/EPUB",
     "date": "2026",
     "tag": ["ebook", "git/vscode", "javascript"],
     "excerpt": "Um guia completo e progressivo para sair do zero e chegar ao nível profissional no desenvolvimento front-end — sem pular etapas, sem lacunas, sem depender de tutoriais soltos que nunca formam uma visão completa.",
@@ -10,7 +10,7 @@
  
          {
     "slug": "ebook-pandoc",
-    "title": "Como criar eBooks profissionais usando Markdown + Pandoc — 📕EBOOK/EPUB",
+    "title": "Produção de EBOOKs: Markdown + Pandoc + Workflow — 📕EBOOK/EPUB",
     "date": "2026",
     "tag": ["ebook", "markdown", "pandoc"],
     "excerpt": "Um guia prático para transformar texto simples em conteúdo profissional — eBooks, PDFs, documentações e EPUBs — usando ferramentas leves, abertas e independentes de plataformas complexas.",
