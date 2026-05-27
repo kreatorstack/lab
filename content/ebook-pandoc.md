@@ -29,7 +29,7 @@ Um guia prático para transformar texto simples em conteúdo profissional — eB
 
 
 
-> 57,00 REAIS · Arquivo EPUB · PIX / Transferência
+> 54,00 REAIS · Arquivo EPUB · PIX / Transferência
     
 
 
