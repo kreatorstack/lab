@@ -1,6 +1,6 @@
 const config = {
   website: {
-    name: 'FRONTLAB',
+    name: 'kreatorstack/lab',
     description: 'Desenvolvido por Guilherme Ribeiro.',
     author: 'Guilherme Ribeiro',
     year: new Date().getFullYear(),
