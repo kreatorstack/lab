@@ -11,40 +11,23 @@
 7. Checklist + Recursos/Links      
 
 
-## Conteúdo do eBook 
+## Conteúdo do eBook
 
-Um guia completo e progressivo para sair do zero e chegar ao nível profissional no desenvolvimento front-end — sem pular etapas, sem lacunas, sem depender de tutoriais soltos que nunca formam uma visão completa. Feito para quem quer construir uma base sólida e entrar no mercado com confiança.
+Um guia completo e progressivo para sair do zero no desenvolvimento front-end — sem pular etapas, sem lacunas, sem depender de tutoriais soltos que nunca formam uma visão completa. Feito para quem quer construir uma base sólida com as ferramentas que o mercado realmente usa.
 
-Aprenda as duas ferramentas essenciais para qualquer desenvolvedor web. Este eBook cobre instalação, configuração e uso prático do Git e do Visual Studio Code — do zero ao primeiro deploy — com linguagem direta e foco em aplicação imediata.
+**Git do zero ao repositório publicado.** Você vai entender o que é controle de versão, por que ele existe e como configurar o Git corretamente antes de escrever qualquer código. Repositório, commit, branch, push, autenticação com GitHub — tudo com comandos reais e explicações diretas.
 
-Este material começa pelo Git: o sistema de versionamento que todo desenvolvedor precisa dominar. Você vai entender os conceitos fundamentais como repositório, commit, branch e merge, e aprender os comandos principais na prática — init, add, commit, push, pull e clone. A base que garante organização, histórico limpo e colaboração profissional em qualquer projeto.
+**Visual Studio Code configurado para desenvolvimento web.** Instalação, extensões essenciais, formatação automática, integração com Git, terminal integrado e os atalhos que aumentam produtividade no dia a dia. Um ambiente pronto para trabalhar do jeito certo desde o início.
 
-Em seguida, o foco muda para o Visual Studio Code. O guia mostra como configurar o editor do zero para desenvolvimento web moderno, com extensões essenciais para produtividade, linting, formatação e integração com Git. Atalhos úteis, terminal integrado, organização de workspace: tudo para criar um ambiente rápido, eficiente e personalizado.
+**Primeiro projeto publicado na internet.** Você vai criar um site com HTML e CSS do zero, fazer o primeiro commit e publicar com GitHub Pages — com um endereço real acessível para qualquer pessoa. É aqui que Git, editor e deploy se conectam pela primeira vez.
 
-O eBook também cobre o deploy com GitHub Pages — como publicar projetos estáticos com rapidez, atualizar via push e entender as vantagens e limitações da plataforma. Ideal para portfólios, landing pages e documentação técnica. 
+**SPA com roteamento client-side em JavaScript puro.** Sem framework. Você vai entender o que é uma Single Page Application, a diferença entre roteamento com hash e roteamento real pela History API, e vai construir um roteador funcional com URLs limpas do zero.
 
+**Três projetos com APIs REST públicas.** Um explorador de personagens, um buscador de países e um gerador de piadas — todos usando APIs reais, gratuitas e sem necessidade de cadastro. Você vai aprender `fetch` com `async/await`, tratamento de erros, estados de carregamento e renderização de dados dinâmicos.
 
+**TypeScript na prática.** Instalação do compilador, configuração do `tsconfig.json`, tipos primitivos, interfaces, enums e union types — tudo construído em cima de um projeto real: um formulário de entrevista técnica que compila e roda no navegador.
 
-
-
-
-
-
-
-
-
- 
- 
-
- 
-HTML semântico, CSS com Flexbox e Grid, JavaScript com manipulação de DOM, eventos e requisições HTTP. E mais: você vai publicar seu trabalho na internet pela primeira vez. Deploy com Netlify ou Vercel, domínio personalizado, HTTPS automático. Sair do ambiente local e ver seu projeto acessível para qualquer pessoa no mundo muda a forma como você pensa sobre o que está construindo.
- 
-SPAs com roteamento client-side, React com componentes, estado e efeitos, TypeScript para código mais seguro e previsível, um fluxo de Git colaborativo com branches, pull requests e code review, e consumo de APIs com autenticação JWT e gerenciamento de estados de requisição. O que você encontra em praticamente qualquer vaga front-end no mercado.
-
-
-
- 
-Para fechar, cada nível termina com uma direção clara de projeto prático — porque o conteúdo passivo só vai até certo ponto. O que consolida o aprendizado é construir algo real, do zero ao deploy, com todos os conceitos juntos. O ebook entrega o mapa. O caminho você percorre fazendo.
+Mais de **80 páginas**, **+1.700 linhas de código** e **seis projetos do zero ao deploy**. O ebook entrega o mapa. O caminho você percorre fazendo.
  
 
 ---
