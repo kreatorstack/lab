@@ -10,7 +10,7 @@
  
          {
     "slug": "ebook-pandoc",
-    "title": "Produção de EBOOKs: Markdown + Pandoc + Workflow — 📕EBOOK/EPUB",
+    "title": "Produção de EBOOKs usando Markdown + Pandoc — 📕EBOOK/EPUB",
     "date": "2026",
     "tag": ["ebook", "markdown", "pandoc"],
     "excerpt": "Um guia prático para transformar texto simples em conteúdo profissional — eBooks, PDFs, documentações e EPUBs — usando ferramentas leves, abertas e independentes de plataformas complexas.",
