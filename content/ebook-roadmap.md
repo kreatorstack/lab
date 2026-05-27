@@ -1,14 +1,6 @@
 <img src="./assets/ebook-roadmap.png" width="45%" height="45%" style="border-radius:2%;" />
 
-## Sumário 
-
-1. Instalação + Configuração Git
-2. Instalação + Configuração VSCode 
-3. Tutorial Deploy GitHub Pages
-4. SPA com Roteamento — Projetos Práticos 
-5. Projetos com APIs REST Públicas
-6. Projeto TypeScript — Formulário de Entrevista
-7. Checklist + Recursos/Links      
+     
 
 
 ## Conteúdo do eBook
