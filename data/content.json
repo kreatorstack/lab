@@ -1,16 +1,16 @@
 [
          {
-    "slug": "ebook-roadmap",
-    "title": "JavaScript Roadmap: Projetos + Documentação README + DEPLOY — 📘EBOOK/EPUB",
+    "slug": "ebook-freelancer",
+    "title": "Programador Web Freelancer: Das ferramentas ao produto — 📘EBOOK/EPUB",
     "date": "2026",
-    "tag": ["ebook", "git/vscode", "javascript"],
-    "excerpt": "Um guia completo e progressivo para sair do zero e chegar ao nível profissional no desenvolvimento front-end — sem pular etapas, sem lacunas, sem depender de tutoriais soltos que nunca formam uma visão completa.",
-    "file": "ebook-roadmap.md"
+    "tag": ["ebook", "freelancer", "javascript"],
+    "excerpt": "Este livro é para quem já decidiu que quer trabalhar com programação web JavaScript de forma independente, mas ainda não sabe por onde começar de verdade.",
+    "file": "ebook-freelancer.md"
   },
  
          {
     "slug": "ebook-pandoc",
-    "title": "Produção de EBOOKs usando Markdown + Pandoc — 📕EBOOK/EPUB",
+    "title": "Do Markdown ao EPUB: Crie ebooks profissionais com Pandoc e automação — 📕EBOOK/EPUB",
     "date": "2026",
     "tag": ["ebook", "markdown", "pandoc"],
     "excerpt": "Um guia prático para transformar texto simples em conteúdo profissional — eBooks, PDFs, documentações e EPUBs — usando ferramentas leves, abertas e independentes de plataformas complexas.",

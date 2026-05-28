@@ -4,7 +4,7 @@
 
 <img src="./assets/ebook-pandoc.png" width="45%" height="45%" style="border-radius:2%;" />
 
-## eBook Markdown + Pandoc
+## Conteúdo do eBook 
 
 Um guia prático para transformar texto simples em conteúdo profissional — eBooks, PDFs, documentações e EPUBs — usando ferramentas leves, abertas e independentes de plataformas complexas. Feito para quem quer produzir mais com menos fricção.
 
